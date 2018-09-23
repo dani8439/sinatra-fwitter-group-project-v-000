@@ -23,9 +23,6 @@ class ApplicationController < Sinatra::Base
       User.find_by(id: session[:user_id])
     end
 
-    # def logout
-    #   session.clear
-    # end
   end
 
 end
